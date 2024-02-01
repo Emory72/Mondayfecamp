@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import NotFound from "./components/NotFound/NotFound";
 import Signin from "./pages/Auth/pages/Signin/Signin";
 import Signup from "./pages/Auth/pages/Signup/Signup";
+import SignupEmail from "./pages/Auth/pages/Signup/SignupEmail";
 import UserInfo from "./pages/UserInfo/UserInfo";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         {/* Public routes */}
         <Route path="/sign-in" element={<Signin />} />
         <Route path="/sign-up" element={<Signup />} />
+        <Route path="/sign-up/email" element={<SignupEmail />} />
 
         {/* User information */}
         <Route path="users" element={<UserInfo />} />
