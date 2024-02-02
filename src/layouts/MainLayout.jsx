@@ -5,7 +5,7 @@ import { Header } from "antd/es/layout/layout";
 
 export default function MainLayout() {
   return (
-    <div className="h-full">
+    <div className="min-h-screen">
       {/* <Header /> */}
 
       <Outlet />

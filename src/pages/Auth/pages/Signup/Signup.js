@@ -2,19 +2,19 @@ import React from "react";
 
 export default function Signup() {
   return (
-    <div className="flex justify-center flex-1">
-      <div className="w-3/5 p-6 sm:p-12 ">
+    <div className="flex justify-center flex-1 min-h-screen">
+      <div className="w-3/5 my-auto">
         <div>
           <h1 className="mx-auto text-center text-2xl xl:text-3xl">
             Welcome to Monday.com
           </h1>
         </div>
-        <div className="mt-2 flex flex-col items-center">
+        <div className="mt-2 flex flex-col items-center text-center">
           <p className="">Get started - it's free. No credit card needed.</p>
           <div className="w-full flex-1 mt-8">
             <div className="flex flex-col items-center">
-              <button className="w-full max-w-xs  shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
-                <div className="bg-white p-2 rounded-full">
+              <button className="w-full max-w-xs shadow border border-gray-300 rounded-md py-2 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline ">
+                <div className="bg-white rounded-full">
                   <svg className="w-4" viewBox="0 0 533.5 544.3">
                     <path
                       d="M533.5 278.4c0-18.5-1.5-37.1-4.7-55.3H272.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z"
@@ -38,7 +38,7 @@ export default function Signup() {
               </button>
             </div>
 
-            <div className="my-12 border-b text-center">
+            <div className="my-6 border-b text-center">
               <div className="leading-none px-2 inline-block text-sm text-gray-600 tracking-wide bg-white transform translate-y-1/2">
                 Or
               </div>
@@ -46,12 +46,12 @@ export default function Signup() {
 
             <div className="mx-auto max-w-xs">
               <input
-                className="w-full px-8 py-4 rounded-lg bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
+                className="w-full px-8 py-2 rounded-md bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
                 type="email"
                 placeholder="name@company.com"
               />
 
-              <button className="mt-5 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+              <button className="mt-5 tracking-wide bg-blue-500 text-gray-100 w-full py-2 rounded-md hover:bg-blue-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                 <span className="ml-3">Continue</span>
               </button>
               <p className="mt-6 text-xs text-gray-600 text-center">

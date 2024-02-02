@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SignupEmail() {
   return (
-    <div className="flex justify-center flex-1">
-      <div className="email-form w-3/5 p-6 sm:p-12">
+    <div className="flex justify-center flex-1 min-h-screen">
+      <div className="email-form w-3/5 p-6 sm:p-12 my-auto ">
         <a
           href="/"
           class="text-indigo-900 z-10 active 
