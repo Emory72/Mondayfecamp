@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SignupEmail() {
   return (
-    <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
-      <div className="email-form lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
+    <div className="flex justify-center flex-1">
+      <div className="email-form w-3/5 p-6 sm:p-12">
         <a
           href="/"
           class="text-indigo-900 z-10 active 
@@ -82,10 +82,10 @@ export default function SignupEmail() {
       </div>
       <div className="email-background flex-1 bg-indigo-100  hidden lg:flex">
         <div
-          className="w-full bg-contain bg-center bg-no-repeat"
+          className="w-full bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url(https://storage.googleapis.com/devitary-image-host.appspot.com/15848031292911696601-undraw_designer_life_w96d.svg)",
+              "url(https://dapulse-res.cloudinary.com/image/upload/monday_platform/signup/signup-right-side-assets-new-flow/set-up-your-account.png)",
           }}
         ></div>
       </div>

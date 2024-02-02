@@ -5,7 +5,7 @@ import { Header } from "antd/es/layout/layout";
 
 export default function MainLayout() {
   return (
-    <div>
+    <div className="h-full">
       {/* <Header /> */}
 
       <Outlet />
